@@ -104,7 +104,7 @@ textLabel2.FontFace = Font.new(
 	Enum.FontWeight.Medium,
 	Enum.FontStyle.Normal
 )
-textLabel2.Text = "Loading won't take long, so wait a few seconds..."
+getgenv().textLabel2.Text = "Loading won't take long, so wait a few seconds..."
 textLabel2.TextColor3 = Color3.fromRGB(200, 200, 200)
 textLabel2.TextSize = 14
 textLabel2.TextTransparency = 1
