@@ -285,7 +285,7 @@ if game.GameId == 3150475059 then
 		Option1 = {
 			Text = "Yes",
 			Callback = function()
-				Decided = true
+				getgenv().Decided = true
 				for i,v in next, frame.Parent:GetDescendants() do
 					if v.Name == "NewOption" then
 						local option = v;
@@ -316,7 +316,7 @@ if game.GameId == 3150475059 then
 		Option2 = {
 			Text = "No",
 			Callback = function()
-				Decided = false
+				getgenv().Decided = false
 				for i,v in next, frame.Parent:GetDescendants() do
 					if v.Name == "NewOption" then
 						local option = v;
