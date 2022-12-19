@@ -26,7 +26,7 @@ screenGui.Name = "ScreenGui"
 screenGui.IgnoreGuiInset = true
 screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 screenGui.Name = "CheetoLoading"
-screenGui.Parent = game:GetService("Players").LocalPlayer.PlayerGui
+screenGui.Parent = game:GetService("CoreGui")
 
 local frame = Instance.new("Frame")
 frame.Name = "Frame"
