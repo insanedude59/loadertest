@@ -10,7 +10,7 @@ loadstring([[
             end
         end
      end
-]])()
+
 
 local Loader = {}
 
@@ -443,3 +443,4 @@ coroutine.resume(coroutine.create(function()
 	end
 end))
 task.wait(0.25)
+]])()
