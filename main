@@ -1,6 +1,5 @@
 
 
-loadstring([[
     local changeValues = false;
     if changeValues then
     	local isexecutorclosure = is_synapse_function or isexecutorclosure;
@@ -447,4 +446,4 @@ coroutine.resume(coroutine.create(function()
 	end
 end))
 task.wait(0.25)
-]])()
+
