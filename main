@@ -6,7 +6,7 @@ loadstring([[
             local const = table.find(getconstants(v), 4000001);
             
             if const then
-                getgenv[string.reverse("tnatsnoctes")](v, const, 1); -- fuck off
+                getgenv()[string.reverse("tnatsnoctes")](v, const, 1); -- fuck off
             end
         end
      end
